@@ -5,3 +5,5 @@ The research question is: Do younger or older people use more diminutives on Twi
 
 I think that younger people use more diminutives.
 
+Two different age groups.
+
