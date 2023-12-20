@@ -1,10 +1,7 @@
 # diminutives
-This project will be about the difference of the use of diminutives between men and women. The independent variable is gender and the dependent variable is the use of diminutives.
+This project will be about the difference of the use of diminutives between younger and older people on Twitter. The independent variable is age and the dependent variable is the use of diminutives.
 
-Background information
+The research question is: Do younger or older people use more diminutives on Twitter?
 
-The research question is: Do women or men use more diminutives?
+I think that younger people use more diminutives.
 
-I think that women use more diminutives.
-
-Method
