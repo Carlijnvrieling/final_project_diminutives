@@ -1,0 +1,222 @@
+The use of diminutives on social media by females and males
+Carlijn Vrieling, S5737486
+Length: 3 pages
+Abstract
+This study delves into the usage of diminu-
+tives in the Dutch language on Twitter
+between the different genders; male and
+female. Diminutives play a big roll in
+expressing feelings while communicating.
+After exploring related work we hypoth-
+esize that females use more diminutives
+then males in the Dutch language on Twit-
+ter. The results of this study will help
+us understand the linguistic variation in
+communication between the different gen-
+ders on social media platforms. While
+our study focuses on Dutch future research
+could expand to different languages or dif-
+ferent social media platforms.
+1 Introduction
+The Dutch language has many intriguing aspects,
+one of many is the use of diminutives. Diminutives
+are used to express the fact that something is small,
+often either to show affection or to suggest that
+something or someone is not important. In Dutch
+diminutives are made by adding the suffix -je, -tje,
+-pje, -kje, or, -etje.
+One of the many ways people communicate is
+through social media. Platforms like Twitter re-
+flect the usage of language. That is why in this
+study we focus on the use of diminutives on social
+media, more specifically the social media platform
+Twitter.
+The specific research question that this study
+will focus on is: What is the difference between
+females and males in the usage of diminutives in
+Dutch on Twitter?
+For this study the independent variable are the
+genders, categorized as female and male. The de-
+pendent variable for this study is the frequency of
+diminutive usage in the Dutch language on Twit-
+ter.
+Our hypothesis is that there will be a noticeable
+difference in the frequency of diminutive usage
+between females and males in the Dutch language
+on Twitter. More specifically we hypothesize that
+females have a higher frequency of diminutive us-
+age on Twitter.
+For this study we have used a public GitHub
+repository. The name of the repository is fi-
+nal project diminutives and the account name is
+Carlijnvrieling. Vrieling (2024)
+Knowing and understanding the use of diminu-
+tives in the Dutch language on Twitter contributes
+not only to our knowledge of language evolution,
+but also helps providing insights into the aspects
+of communication between the different genders
+specifically on social media.
+In the next part we will look at work related to
+our study. We will explain how the study will be
+conducted; what methods will be used, how the
+data will be gathered and analyzed, and how we
+came to our conclusions. In the end we will ex-
+plain what we discovered and how further research
+could implement this.
+2 Related Work
+Considering this research question is very specific,
+there has not been done any research on this ex-
+act topic, but there are still papers that are relevant
+to this study. Including the usage of diminutives
+on social media, this is a topic that has been ex-
+plored before. There has been done a study fo-
+cusing on diminutives on Instagram for Russian
+speakers (Grigoryan1 and Strelchuk, 2020). This
+study analyzed over 250 users pages, finding the
+most common diminutives and analysing how they
+were used. The study found that the way that Rus-
+sians use diminutives is not just random, it is a
+really important part of how they see the world.
+The usage of diminutives is crucial for people to
+express themselves online. This research helps us
+understand how diminutives are essential in digi-
+tal communication and opens the door for further
+studies in other languages.
+There has also been done some research on the
+difference in use of language between the two gen-
+ders male and female. Alina Korovatskaya’s work
+adds to the ongoing conversation on the difference
+between men and women in the way they use lan-
+guage. The study looks at how people talk on so-
+cial media platforms like Twitter and Reddit and
+what the difference is between men and women.
+Korovatskaya’s study tries to overcome the limi-
+tations of older studies by considering how gen-
+der relations have changed in recent years. (Ko-
+rovatskaya, 2020)
+The study by Dorota Lockyer (2014), delves
+into the emotive meanings and functions of
+diminutives in posts on Twitter. This study looks
+at a Twitter corpus to suggest the non-seriousness
+features of the use of diminutives, specifically
+diminutives with suffixes -y or -ie(s). Lockyers
+study was one of the first to focus on this aspect of
+diminutives.
+Expanding upon the findings from the previous
+studies, our research now looks at how this extends
+to the Dutch language on Twitter. We want to find
+out how the different genders, male and female, in
+the Dutch Twitter community use diminutives and
+understand in what way people use language on
+this online platform.
+3 Data
+For our research on the use of diminutives on
+dutch twitter, we will use the Dutch Media Col-
+lection dataset from Hugging Face (Gupta, 2020).
+This dataset contains 10 files with around 271,342
+tweets. The tweets are filtered via the official Twit-
+ter API to contain tweets in the Dutch language or
+by users who have specified their location infor-
+mation within Netherlands geographical bound-
+aries.
+To ensure equal representation we will select an
+equal number of tweets from both male and fe-
+male Twitter users in the Dutch Social Media Col-
+lection dataset. We will use an automated method
+to determine user gender, following gender iden-
+tification, we’ll collect tweets from both female
+and male users from the Dutch Social Media Col-
+lection dataset. We will find the diminutives and
+then calculate the percentage of diminutives in the
+tweets.
+All diminutives in the Dutch language end with
+-je, so for finding the diminutives we will look for
+words ending with -je in the tweets, excluding the
+word je, since that translates to you and is thus not
+a diminutive.
+Our independent variable for this study is the
+gender of Twitter users, classified as female or
+male, the independent variable is the frequency of
+diminutives in Dutch tweets. We will measure the
+frequency of diminutives as the percentage of the
+amount of diminutives from the total amount of
+words in the tweets of a user.
+For pre-processing we will tokenize the text by
+breaking it into individual words. We will filter out
+irrelevant symbols, URLs, and special characters
+and we will exclude all retweets.
+For determining the gender of the users in the
+dataset we will be using the method described in
+the research paper ”Gender recognition on Dutch
+tweets” (Halteren and Speerstra, 2014). This
+study uses an approach that utilizes author by pro-
+filing techniques to automatically determine the
+gender of Twitter users based on the content of
+their tweets. The research paper uses the TwiNL
+dataset, but we will be using the Dutch Social Me-
+dia Collection dataset since it has more current
+data. This method is very accurate, but since it
+is automated and since it has to do with gender,
+which is difficult to measure automatically, there
+will probably be made some mistakes in determin-
+ing the gender of the users. That is why this study
+is not 100 percent reliable.
+4 Predicted Results
+We predict that the results of our study will be that
+females have a higher frequency of diminutive
+usage compared to males. This corresponds to the
+findings in Korovatskaya’s study. (Korovatskaya,
+2020) The expected results are summarized in
+table 1.
+frequency of use of diminutives female male
+predicted percentage higher lower
+Table 1: predicted results
+In table 1 you can see how the results will look,
+if our hypothesis is correct, females should be a
+higher percentage then males, since we hypothe-
+size that females use more diminutives then males.
+Discussion The predicted results are expected to
+provide insights in the use of diminutives. More
+broadly it could contribute to our understanding
+of linguistic variation on social media and the lin-
+guistic variation between the different genders.
+5 Conclusion
+This study aimed at finding out if females or males
+use more diminutives on the social media platform
+Twitter. We have predicted results based on previ-
+ous studies, which show that females have a higher
+use of diminutives then males. Our research adds
+to our knowledge of communication on social me-
+dia as well as our knowledge about the difference
+in the way females and males communicate.
+While our study provides important insights,
+this study does have its limitations. The re-
+liance on automated gender identification tech-
+niques may cause some error, which makes the
+study not fully reliable. In addition, this current
+study is only limited to a specific dataset in the
+Dutch language.
+For future research it might be interesting to do
+this study among different languages, social media
+platforms, or in relation with different age groups.
+It could also be interesting to find out what the fre-
+quency of the use of diminutives is of people that
+identify as different genders.
+References
+Grigoryan1, A. A. and E. N. Strelchuk (2020).
+Russian diminutives on the social network in-
+stagram. RUDN Journal of Language Studies,
+Semiotics and Semantics.
+Gupta, A. (2020). Dutch social media collection.
+Halteren, H. v. and N. Speerstra (2014, De-
+cember). View of gender recognition on
+dutch tweets. Computational Linguistics in
+the Netherlands Journal 4.
+Korovatskaya, A. (2020). GENDERLECTS IN SO-
+CIAL MEDIA. masters’s thesis, The City Uni-
+versity of New York.
+Lockyer, D. (2014, December). The emotive
+meanings and functions of english ‘diminutive’
+interjections in twitter posts. SKASE Journal of
+Theoretical Linguistics.
+Vrieling, C. (2024). finalprojectdiminutives.
